@@ -28,7 +28,7 @@ export default function Modal({ item, onClose }) {
           Close
         </button>
         <div className="grid md:grid-cols-[1.2fr_0.8fr]">
-          <div className="relative min-h-80">
+          <div className="relative min-h-80 z-0">
             <Image
               src={item.image}
               alt={item.title}
